@@ -15,6 +15,7 @@ COPY .mvn/ .mvn
 COPY ./mvnw  ./
 COPY ./pom.xml ./
 COPY src ./src
+COPY ./healthy .
 RUN ./mvnw package
 
 # Phase 3
